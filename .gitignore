@@ -29,3 +29,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Keep .claude-plugin for marketplace registration
+!.claude-plugin/

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hwp-claude-skill",
+  "version": "1.0.0",
+  "description": "HWP (Hangul Word Processor) document manipulation skill for Claude Code. Create, edit, format, and manipulate HWP documents with support for templates, tables, markdown conversion, images, and batch processing.",
+  "owner": {
+    "name": "kimsama",
+    "email": "your-email@example.com"
+  },
+  "plugins": [
+    {
+      "name": "hwp",
+      "description": "HWP (Hangul Word Processor) document manipulation skill. Use when Claude needs to create, edit, format, or manipulate HWP documents including: (1) Creating new documents or opening existing HWP files, (2) Inserting and editing text with font formatting, (3) Creating and manipulating tables, (4) Working with templates and filling placeholders, (5) Converting markdown tables to HWP tables, (6) Inserting images, (7) Batch processing multiple HWP operations, (8) Applying document formatting (fonts, sizes, bold, italic, paragraphs)",
+      "source": "./hwp",
+      "category": "document-processing",
+      "tags": ["hwp", "korean", "document", "word-processor", "hangul", "templates", "tables"],
+      "homepage": "https://github.com/kimsama/hwp-claude-skill",
+      "repository": "https://github.com/kimsama/hwp-claude-skill",
+      "license": "MIT"
+    }
+  ]
+}
