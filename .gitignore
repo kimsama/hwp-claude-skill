@@ -1,9 +1,9 @@
 # HWP API submodule (referenced, not tracked here)
 hwpapi/
 
-# Built skill package
-*.skill
+# Built skill packages (standard is .zip for Claude skills)
 *.zip
+*.skill
 
 # Python cache
 __pycache__/
